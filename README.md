@@ -10,8 +10,10 @@ track of the connected paths between nodes.
 The following describes the pseudocode for breadth first search algorithm. The function takes as input a starting vertex and
 returns a dictionary in which the key represents a vertex and values are lists containing vertices connected to the key vertex. 
 The function also returns a list of all vertices that have been traversed by the algorithm.
+ 
 ![alt text](https://github.com/arqchicago/bfs/blob/main/data/bfs_pseudocode.png)
 
-## More Info 2
+## Time Complexity
+The time complexity of the Breadth First Search algorithm is O(V+E) where V is the number of nodes and E is the number of edges. 
 
 
